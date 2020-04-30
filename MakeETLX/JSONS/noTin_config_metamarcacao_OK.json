@@ -1,0 +1,67 @@
+{
+	"type": "file",
+	"incremental": "notIncremental",
+	"decimalFormat" : "US",
+	"delimiter": "SEMICOLON",
+	"header": [
+		"CDD Meta",
+		"Geo Meta",
+		"",
+		"",
+		"",
+		"",
+		""
+	],
+	"namePattern": "Meta Marcacao",
+	"extension": "xlsx",
+	"source": "//172.22.4.35/d/qlikview-confidencial/Planilhas/LOG_Confidencial/SLS/",
+	"preLandingSourcePath": "D:/resource/default_user/Workspace/source_config/pre_landing/",
+	"preLandingDestinyPath": "D:/resource/default_user/Workspace/source_config/pre_landing_ok/",
+	"history_path": "OK/FILESERVER/META_MARCACAO/{YYYY}/{MM}/",
+	"rejected_path": "NOK/FILESERVER/META_MARCACAO//{YYYY}/{MM}/",
+	"sheetNumber": 0,
+	"skip_header": 1,
+	"skip_column": 0,
+	"addDateColumn": true,
+	"columnsSchema": [
+		{
+			"name": "CDD_Meta",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Geo_Meta",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Marc_Meta",
+			"dataType": "Float",
+			"decimalFormat" : "US",
+			"allowNull": true,
+			"removeChar": ["-"]
+		},
+		{
+			"name": "Canal_Meta",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Cod_Filial",
+			"dataType": "Integer",
+			"allowNull": true
+		},
+		{
+			"name": "Mes",
+			"dataType": "DateTime",
+			"dateFrom": "yyyy-MM-dd HH:mm:ss",
+			"dateTo": "yyyy-MM-dd HH:mm:ss",
+			"allowNull": true
+		},
+		{
+			"name": "CLUSTER",
+			"dataType": "String",
+			"allowNull": true
+		}
+	]
+}

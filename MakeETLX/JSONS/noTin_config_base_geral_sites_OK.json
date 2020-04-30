@@ -1,0 +1,71 @@
+{
+	"type":"file",
+	"incremental":"notIncremental",
+	"delimiter":"SEMICOLON",
+	"decimalFormat" : "pt_BR",
+	"header": 
+	[
+	"Centro 4.7",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	""
+	],
+	"namePattern":"Base Geral Site",
+	"extension":"xlsx",
+	"source":"//192.168.252.25/infocell/CINFO/divulgacao/ADL/BaseUnica/Base_Geral/Site/",
+	"preLandingSourcePath":"D:/resource/default_user/Workspace/source_config/pre_landing/",
+	"preLandingDestinyPath":"D:/resource/default_user/Workspace/source_config/pre_landing_ok/",
+	"history_path":"OK/FILESERVER/SITES/{YYYY}/{MM}/{DD}/",
+	"rejected_path":"NOK/FILESERVER/SITES/{YYYY}/{MM}/{DD}/",
+	"sheetNumber":1,
+	"skip_header":1,
+	"skip_column":0,
+	"addDateColumn":true,
+	"columnsSchema":
+	[
+			{
+				"name":"Centro4_7",
+				"dataType":"Integer",
+				"allowNull":true
+			},
+			{
+				"name":"Centro6_0",
+				"dataType":"String",
+				"allowNull":true
+			},
+			{
+				"name":"Centro4_7",
+				"dataType":"Integer",
+				"allowNull":true
+			},
+			{
+				"name":"Unidade",
+				"dataType":"String",
+				"allowNull":true
+			},
+			{
+				"name":"Reg_Geo",
+				"dataType":"String",
+				"allowNull":true
+			},
+			{
+				"name":"t_unidade",
+				"dataType":"String",
+				"allowNull":true
+			},
+			{
+				"name":"CdInternoSetiver",
+				"dataType":"String",
+				"allowNull":true
+			},
+			{
+				"name":"Centro4_7",
+				"dataType":	"Integer",
+				"allowNull":true
+			}
+	]
+}

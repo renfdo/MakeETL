@@ -1,0 +1,135 @@
+{
+    "type":"SAP",
+	"enconding":"",
+	"decimalFormat" : "pt_BR",
+	"incremental":"notIncremental",
+	"encodingDetected": "UTF-16",
+	"delimiter": "TAB",
+	"blob_filter": "OK/SAP/ZV_R0051/",
+	"file_sqlName": "CREATE_EXT_ZV_R0051.sql",
+	"removeFirstEmptyData": true,
+	"namePattern": "ZV_R0051",
+	"extension":"txt",
+	"source": "//192.168.252.25/infocell/CINFO/divulgacao/ADL/BaseUnica/Insumos/{YYYY}/{YYYY}_{MM}_{DD}/SAP/ZV_R0051/",
+	"preLandingSourcePath": "C:/Users/re036935/Documents/GitAmbev/CommandCenter/MakeETLX/classes/artifacts/MakeETLX__1__jar/",
+    "preLandingDestinyPath":"C:/Users/re036935/Documents/GitAmbev/CommandCenter/MakeETLX/classes/artifacts/MakeETLX__1__jar/OK",
+	"history_path": "OK/SAP/ZV_R0051/{YYYY}/{MM}/{DD}/",
+	"raw_path": "RAW/SAP/ZV_R0051/{YYYY}/{MM}/{DD}/",
+	"rejected_path": "NOK/SAP/ZV_R0051/{YYYY}/{MM}/{DD}",
+	"sheetNumber":0,
+    "skip_header":5,
+    "skip_column":1,
+	"addDateColumn":true,
+	"columnsSchema":
+	
+	[
+		{
+			"name": "DATA_PUXADA",
+			"dataType": "Date",
+			"allowNull": true,
+			"dateFrom": "dd.MM.yyyy",
+			"dateTo": "yyyy-MM-dd"
+		},
+		{
+			"name": "CENTRO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "ATRIBUICAO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "PED_PCA",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "TRANSPORTE",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "FORNECIMENTO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "CÓDIGO_MATERIAL",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "DESCR_PRODUTO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "DESCR_STATUS_PEDIDO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "QUANTIDADE",
+			"dataType": "Float",
+		    "decimalFormat" : "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "HORA_PUXADA",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "CLIENTE",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "CLIENTE_SAP",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "NUMERO_NOTA_FISCAL",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "DATA_INICIO_CARREGAMENTO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "HORA_INICIO_CARREGAMENTO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "DT_TERMINO_CARREGAMENTO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "HORA_TERMINO_CARREGAMENTO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "NUMERO_OV_PED_TRANSF",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "CAN_DISTRIB_",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "TIPO_OPERACAO",
+			"dataType": "String",
+			"allowNull": true
+		}
+	]
+}

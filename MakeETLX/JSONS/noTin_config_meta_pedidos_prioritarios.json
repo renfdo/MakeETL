@@ -1,0 +1,46 @@
+{
+    "type":"file",
+	"enconding":"",
+	"incremental":"notIncremental",
+	"decimalFormat" : "pt_BR",
+	"delimiter": "",
+	"header": 
+	[
+	"id",
+	"data",
+	"meta_porc"
+	],
+	"namePattern": "meta_pedidos_prioritarios",
+	"extension":"xlsx",
+	"source": "//172.19.119.14/man_input_stage/analytics/non_commercial/logistics/command_center/pedidos_prioritarios/meta_pedidos/",
+	"preLandingSourcePath": "D:/resource/default_user/Workspace/source_config/pre_landing/",
+    "preLandingDestinyPath":"D:/resource/default_user/Workspace/source_config/pre_landing_ok/",
+	"history_path": "OK/META_PEDIDOS/Meta/{YYYY}/{MM}/",
+	"rejected_path": "NOK/META_PEDIDOS/Meta/{YYYY}/{MM}/",
+	"sheetNumber":0,
+    "skip_header":1,
+    "skip_column":0,
+	"addDateColumn":true,
+	"columnsSchema":
+
+	[	
+			{
+				"name": "ID",
+				"dataType": "String",
+				"allowNull": true
+			},
+			{
+				"name": "DATA",
+				"dataType": "Date",
+				"dateFrom": "yyyy-MM-dd",
+				"dateTo": "yyyy-MM-dd",
+				"allowNull": true
+			},
+			{
+				"name": "META_PORC",
+				"dataType": "Float",
+				"allowNull": true
+			}
+	]
+}
+

@@ -1,0 +1,241 @@
+{
+	"type": "file",
+	"incremental": "notIncremental",
+	"delimiter": "SEMICOLON",
+	"decimalFormat" : "pt_BR",
+	"namePattern": "de_para_sku_2017",
+	"extension": "xlsx",
+	"lineIncompleteAccepted" : "true",
+	"header":
+	[
+	"Cod SAP 4.7",
+	"CodSKU",
+	"CodPW",
+	"CodPCA",
+	"Nome completo",
+	"NomeSKU",
+	"Validade",
+	"Categoria",
+	"Embalagem",
+	"Embalagem EG",
+	"FatorHL",
+	"Fator 4.7",
+	"Embalagem 2",
+	"CatGlobal",
+	"SubCat",
+	"Cluster",
+	"Subcluster",
+	"Old Cluster",
+	"High End Co",
+	"BU",
+	"Import / Export",
+	"País Origem",
+	"Inno 2018",
+	"Inno 2017",
+	"Inno 2016",
+	"Inno 2015",
+	"Marca",
+	"RGB/OW",
+	"Líquido",
+	"NomeAPO",
+	"QtdPalletSAP",
+	"QtdeSKUSAP",
+	"CodEmbIQ",
+	"DescEmbIQ",
+	"CatBBP",
+	"New Cluster"	
+	],
+	
+	"source": "//172.22.4.35/d/qlikview-confidencial/Planilhas/SCL_Confidencial/DE_PARA/",
+	"preLandingSourcePath": "D:/resource/default_user/Workspace/source_config/pre_landing/",
+	"preLandingDestinyPath": "D:/resource/default_user/Workspace/source_config/pre_landing_ok/",
+	"history_path": "OK/FILESERVER/CLUSTER_CDP/{YYYY}/{MM}/{DD}/",
+	"rejected_path": "NOK/FILESERVER/CLUSTER_CDP/{YYYY}/{MM}/{DD}/",
+	"sheetNumber": 0,
+	"skip_header": 1,
+	"skip_column": 0,
+	"addDateColumn": true,
+	"columnsSchema": 
+	[
+		{
+			"name": "Cod_SAP_4.7",
+			"dataType": "Integer",
+			"allowNull": true
+		},
+		{
+			"name": "CodSKU",
+			"dataType": "Integer",
+			"allowNull": true
+		},
+		{
+			"name": "CodPW",
+			"dataType": "Integer",
+			"allowNull": true
+		},
+		{
+			"name": "CodPCA",
+			"dataType": "Integer",
+			"allowNull": true
+		},
+		{
+			"name": "Nome_completo",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "NomeSKU",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Validade",
+			"dataType": "Float",
+			"allowNull": true
+		},
+		{
+			"name": "Categoria",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Embalagem",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Embalagem_EG",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "FatorHL",
+			"dataType": "Float",
+			"allowNull": true
+		},
+		{
+			"name": "Fator_4.7",
+			"dataType": "Float",
+			"allowNull": true
+		},
+		{
+			"name": "Embalagem_2",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "CatGlobal",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "SubCat",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Cluster",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Subcluster",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Old_Cluster",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "HighEnd_Co",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "BU",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Import_Export",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "PaÃ­s_Origem",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Inno_2018",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Inno_2017",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Inno_2016",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Inno 2015",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Marca",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "RGB_OW",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "LÃ­quido",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "NomeAPO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "QtdPalletSAP",
+			"dataType": "Float",
+			"allowNull": true
+		},
+		{
+			"name": "QtdeSKUSAP",
+			"dataType": "Float",
+			"allowNull": true
+		},
+		{
+			"name": "CodEmbIQ",
+			"dataType": "Integer",
+			"allowNull": true
+		},
+		{
+			"name": "DescEmbIQ",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "CatBBP",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "New_Cluster",
+			"dataType": "String",
+			"allowNull": true
+		}
+	]
+}

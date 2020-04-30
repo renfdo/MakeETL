@@ -1,0 +1,202 @@
+{
+	"type": "file",
+	"enconding": "ISO_8859_1",
+	"decimalFormat" : "pt_BR",
+	"incremental": "incremental",
+	"encodingDetected": "ISO-8859-1",
+	"delimiter": "TAB",
+	"header": [
+		"Cod. Unidade",
+		"NomeUnidade",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+	],
+	"namePattern": "*",
+	"decimalSeparator": ",",
+	"extension": "txt",
+	"source": "//172.22.4.35/d/qlikview-confidencial/Planilhas/LOG_Confidencial/SLS/TXTs/{YYYY}/",
+	"preLandingSourcePath": "D:/resource/default_user/Workspace/source_config/pre_landing/",
+	"preLandingDestinyPath": "D:/resource/default_user/Workspace/source_config/pre_landing_ok/",
+	"history_path": "OK/SNS/CDP/{YYYY}/",
+	"rejected_path": "NOK/SNS/CDP/{YYYY}/",
+	"sheetNumber": 0,
+	"skip_header": 1,
+	"skip_column": 0,
+	"addDateColumn": true,
+	"columnsSchema": [
+		{
+			"name": "Cod_Unidade",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "NomeUnidade",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Cod_Unidade_Original",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Regional",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Cod_Cliente",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Nome_Cliente",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Geografia",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Categoria",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Embalagem_Fechada",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Embalagem_Aberta",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Cod_Prod",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Nome_Prod.",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Data_Puxada",
+			"dataType": "Date",
+			"allowNull": true,
+			"dateFrom": "dd/MM/yyyy",
+			"dateTo": "yyyy-MM-dd"
+		},
+		{
+			"name": "Marcacao",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Entrega",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "NS_GROSS",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "NS_NET",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Status_Item",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Motivo",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Num_Carro",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Cod_Justificativa",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Justificativa",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Cod_Justificativa_BO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Justificativa_BO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Canal_de_Marcacao",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Micro_Região",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "ABCI",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "TIPO_VENDA",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "ENTRADA",
+			"dataType": "String",
+			"allowNull": true
+		}
+	]
+}

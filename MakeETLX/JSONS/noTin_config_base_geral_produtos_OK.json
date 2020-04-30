@@ -1,0 +1,131 @@
+{
+	"type":"file",
+	"incremental":"notIncremental",
+	"delimiter":"",
+	"decimalFormat" : "pt_BR",
+	"header": 
+	[	
+	"CodProd",
+	"CodProdDV",
+	"CodProdSAP",
+	"",
+	"",
+	"",
+	"",
+	"FatHL",
+	"FatHL60",
+	"TipoProd",
+	"",
+	"",
+	"Cluster1",
+	"Cluster2",
+	"",
+	"HLPallet",
+	"CodProdDV",
+	""
+	],
+	"namePattern":"FODEU",
+	"extension":"xlsx",
+	"source":"//192.168.252.25/infocell/CINFO/divulgacao/ADL/BaseUnica/Base_Geral/Produto/",
+	"preLandingSourcePath":"D:/resource/default_user/Workspace/source_config/pre_landing/",
+	"preLandingDestinyPath":"D:/resource/default_user/Workspace/source_config/pre_landing_ok/",
+	"history_path":"OK/FILESERVER/PRODUTO/{YYYY}/{MM}/{DD}/",
+	"rejected_path":"NOK/FILESERVER/PRODUTO/{YYYY}/{MM}/{DD}/",
+	"sheetNumber":1,
+	"skip_header":1,
+	"skip_column":0,
+	"addDateColumn":true,
+	"columnsSchema":
+	[
+			{
+				"name":"CodProd",
+				"dataType":"Integer",
+				"allowNull":true
+			},
+			{
+				"name":"CodProdDV",
+				"dataType":"Integer",
+				"allowNull":true
+			},
+			{
+				"name":"CodProdSAP",
+				"dataType":"Integer",
+				"allowNull":true
+			},
+			{
+				"name":"CodProdSAP6_0",
+				"dataType":"Integer",
+				"allowNull":true
+			},
+			{
+				"name":"NomeProduto",
+				"dataType":"String",
+				"allowNull":true
+			},
+			{
+				"name":"NomeEmbMalha",
+				"dataType":"String",
+				"allowNull":true
+			},
+			{
+				"name":"NomeEmbalagem",
+				"dataType":"String",
+				"allowNull":true
+			},
+			{
+				"name":"FatHL",
+				"dataType":	"String",
+				"allowNull":true
+			},
+			{
+				"name":"FatHL6_0",
+				"dataType":	"String",
+				"allowNull":true
+			},
+			{
+				"name":"TipoProd",
+				"dataType":	"String",
+				"allowNull":true
+			},
+			{
+				"name":"Paletizacao6_0",
+				"dataType":	"String",
+				"allowNull":true
+			},
+			{
+				"name":"Paletizacao4_7",
+				"dataType":	"String",
+				"allowNull":true
+			},
+			{
+				"name":"Cluster1",
+				"dataType":	"String",
+				"allowNull":true
+			},
+			{
+				"name":"Cluster2",
+				"dataType":	"String",
+				"allowNull":true
+			},
+			{
+				"name":"Familia",
+				"dataType":	"String",
+				"allowNull":true
+			},
+			{
+				"name":"HLPallet",
+				"dataType":	"String",
+				"allowNull":true
+			},
+			{
+				"name":"CodProdDV",
+				"dataType":	"String",
+				"allowNull":true
+			},
+			{
+				"name":"ClusterTravaOver",
+				"dataType":	"String",
+				"allowNull":true
+			}
+	]
+}

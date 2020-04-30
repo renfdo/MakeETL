@@ -1,0 +1,95 @@
+{
+    "type":"file",
+	"decimalFormat" : "pt_BR",
+	"incremental":"incremental",
+	"encodingDetected": "UTF-8",
+	"delimiter": "SEMICOLON",
+	"blob_filter": "OK/MASTERDATA/PCA/",
+	"file_sqlName": "CREATE_EXT_PCA.sql",
+	"removeFirstEmptyData": false,
+	"namePattern": "PCA_*",
+	"extension":"csv",
+	"source": "//sapbwapp1/interface/DSNP/",
+	"preLandingSourcePath": "C:/Users/re036935/Documents/GitAmbev/CommandCenter/MakeETLX/classes/artifacts/MakeETLX__1__jar/",
+    "preLandingDestinyPath":"C:/Users/re036935/Documents/GitAmbev/CommandCenter/MakeETLX/classes/artifacts/MakeETLX__1__jar/OK",
+	"history_path": "OK/MASTERDATA/PCA/{YYYY}/{MM}/{DD}/",
+	"raw_path": "RAW/MASTERDATA/PCA/{YYYY}/{MM}/{DD}/",
+	"rejected_path": "NOK/MASTERDATA/PCA/{YYYY}/{MM}/{DD}",
+	"sheetNumber":0,
+    "skip_header":1,
+    "skip_column":0,
+	"addDateColumn":true,
+	"columnsSchema":	
+	[
+		{
+			"name": "PEDIDO",
+			"dataType": "String",
+			"allowNull": true,
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "ITEM",
+			"dataType": "Integer",
+			"allowNull": true,
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "MATERIAL",
+			"dataType": "String",
+			"allowNull": true,
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "ORIGEM",
+			"dataType": "String",
+			"allowNull": true,
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "DESTINO",
+			"dataType": "String",
+			"allowNull": true,
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "ORDEM_DO_APO",
+			"dataType": "String",
+			"allowNull": true,
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "DATA_DE_SOLICITACAO",
+			"dataType": "Date",
+			"allowNull": true,
+			"decimalFormat": "pt_BR",			
+			"dateFrom": "yyyyMMdd",	
+			"dateTo": "yyyy-MM-dd"
+		},
+		{
+			"name": "DATA_DA_CRIACAO",
+			"dataType": "Date",
+			"allowNull": true,
+			"decimalFormat": "pt_BR",			
+			"dateFrom": "yyyyMMdd",	
+			"dateTo": "yyyy-MM-dd"
+		},
+		{
+			"name": "CODIGO_DO_CLIENTE_EG",
+			"dataType": "String",
+			"allowNull": true,
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "QUANTIDADE",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "UNIDADE",
+			"dataType": "String",
+			"allowNull": true,
+			"decimalFormat": "pt_BR"
+		}
+	]
+}

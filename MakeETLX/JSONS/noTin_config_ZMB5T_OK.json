@@ -1,0 +1,143 @@
+{
+    "type":"file",
+	"incremental":"notIncremental",
+	"decimalFormat" : "pt_BR",
+	"delimiter": "SEMICOLON",
+	"encodingDetected":"ISO-8859-1",
+	"header":
+	[
+	"Material",
+	"Texto_breve_material",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	""
+	],
+	"namePattern": "TransitoADL",
+	"extension":"csv",
+	"source": "//192.168.252.25/infocell/CINFO/divulgacao/PO/Politica_Estoque/Insumos/{YYYY}/{YYYY}_{MM}_{DD}/Transito/",
+	"preLandingSourcePath":"D:/resource/default_user/Workspace/source_config/pre_landing/",
+    "preLandingDestinyPath":"D:/resource/default_user/Workspace/source_config/pre_landing_ok/",
+	"history_path": "OK/SAP/ZMB5T/{YYYY}/{MM}/{DD}/",
+	"rejected_path": "NOK/SAP/ZMB5T/{YYYY}/{MM}/{DD}/",
+	"sheetNumber":0,
+    "skip_header":1,
+    "skip_column":0,
+	"addDateColumn":true,
+	"columnsSchema":
+	[
+			{
+				"name": "Material",
+				"dataType": "String",
+				"allowNull":true
+			},
+			{
+				"name": "Texto_breve_material",
+				"dataType": "String",
+				"allowNull":true
+			},
+			{
+				"name": "Centro",
+				"dataType": "String",
+				"allowNull":true
+			},
+			{
+				"name": "Nome_1",
+				"dataType": "String",
+				"allowNull":true
+			},
+			{
+				"name": "Doc_compra",
+				"dataType": "String",
+				"allowNull":true
+			},
+			{
+				"name": "Item",
+				"dataType": "String",
+				"allowNull":true
+			},
+			{
+				"name": "CFor",
+				"dataType": "String",
+				"allowNull":true
+			},
+			{
+				"name": "Esp",
+				"dataType": "String",
+				"allowNull":true
+			},
+			{
+				"name": "Quantidade",
+				"dataType": "Float",
+				"allowNull":true
+			},
+			{
+				"name": "UMB",
+				"dataType": "String",
+				"allowNull":true
+			},
+			{
+				"name": "Montante_em_MI",
+				"dataType": "Float",
+				"decimalFormat" : "pt_BR",
+				"allowNull":true
+			},
+			{
+				"name": "Moeda",
+				"dataType": "String",
+				"allowNull":true
+			},
+			{
+				"name": "Qtd_pedido",
+				"dataType": "Float",
+				"allowNull":true
+			},
+			{
+				"name": "UMP",
+				"dataType": "String",
+				"allowNull":true
+			},
+			{
+				"name": "Valor_liquido",
+				"dataType": "Float",
+				"decimalFormat" : "pt_BR",
+				"allowNull":true
+			},
+			{
+				"name": "Moeda_1",
+				"dataType": "String",
+				"allowNull":true
+			},
+			{
+				"name": "Referencia",
+				"dataType": "String",
+				"allowNull":true
+			},
+			{
+				"name": "Entrado_em",
+				"dataType": "Date",
+				"dateFrom" : "dd.MM.yyyy",
+				"dateTo" : "yyyy-MM-dd",
+				"allowNull":true
+			},
+			{
+				"name": "Dias_em_transito",
+				"dataType": "Float",
+				"allowNull":true
+			}
+			
+	]
+}

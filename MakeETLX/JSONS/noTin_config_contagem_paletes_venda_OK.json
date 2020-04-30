@@ -1,0 +1,362 @@
+{
+    "type":"file",
+	"incremental":"notIncremental",
+	"delimiter": "TAB",
+	"decimalFormat" : "pt_BR",
+	"encodingDetected": "ISO-8859-1",
+	"header":
+	[
+	"DATA_PUXADA",
+	"UNB_ORI",
+	"NOME_UNB_ORI",
+	"COD_GEO",
+	"NOME_GEO",
+	"UNB_COM",
+	"NOME_UNB_COM",
+	"DESTINO",
+	"NOME_DESTINO",
+	"TP_CLIENTE",
+	"CANAL_ENTRADA",
+	"DAT_INC",
+	"NUM_BO",
+	"CATEGORIZACAO",
+	"MOTIVO",
+	"STATUS_BO",
+	"NUM_PDD",
+	"NUM_PDD_ITEM",
+	"DAT_CARREGAMENTO",
+	"CMN",
+	"PLACA",
+	"HORARIO_SUGERIDO",
+	"HRA_PUXADA",
+	"FRETE",
+	"IND_SERV_TMS",
+	"TRANSPORTADORA",
+	"CAPACIDADE_VEICULO",
+	"STATUS_PCA",
+	"STATUS_TMS",
+	"PALLET_PCA",
+	"PALLET_TMS",
+	"COD_CARREGAMENTO_EXTERNO",
+	"DATA_INCLUSAO",
+	"HORARIO_INCLUSAO",
+	"DATA_EXPORTACAO",
+	"HORARIO_EXPORTACAO",
+	"DSC_MARCA",
+	"DSC_GRUPO_EMBALAGEM",
+	"DESC_EMBALAGEM",
+	"COD_PROD",
+	"NOME_PROD",
+	"QTD_SKU",
+	"QTD_HL",
+	"IND_MALHA_VIGENTE",
+	"IND_PEDIDO_VALORIZADO",
+	"COD_PEN",
+	"DESC_PEN",
+	"TTV_CHEIO",
+	"TTV_PRATICADO",
+	"DSC_OBS",
+	"DAT_ALT",
+	"COD_USU_ALT",
+	"DSC_NATUREZA_OPERACAO"
+	],
+	
+	"namePattern": "ContagemPallet_Venda",
+	"extension":"txt",
+	"source": "//192.168.252.25/infocell/CINFO/divulgacao/ADL/BaseUnica/Insumos/{YYYY}/{YYYY}_{MM}_{DD}/PCA/ContagemPallet/",
+	"preLandingSourcePath": "D:/resource/default_user/Workspace/source_config/pre_landing/",
+    "preLandingDestinyPath":"D:/resource/default_user/Workspace/source_config/pre_landing_ok/",
+	"history_path": "OK/PCA/ContagemPallet_Venda/{YYYY}/{MM}/{DD}/",
+	"rejected_path": "NOK/PCA/ContagemPallet_Venda/{YYYY}/{MM}/{DD}/",
+	"sheetNumber":0,
+    "skip_header":1,
+    "skip_column":0,
+	"addDateColumn":true,
+	"columnsSchema":
+	[
+
+		{
+			"name": "DATA_PUXADA",
+			"dataType": "Date",
+			"allowNull": true,
+			"dateFrom": "dd/MM/yyyy",
+			"dateTo": "yyyy-MM-dd"
+		},
+		{
+			"name": "UNB_ORI",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "NOME_UNB_ORI",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "COD_GEO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "NOME_GEO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "UNB_COM",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "NOME_UNB_COM",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "DESTINO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "NOME_DESTINO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "TP_CLIENTE",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "CANAL_ENTRADA",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "DAT_INC",
+			"dataType": "Date",
+			"dateFrom":"dd/MM/yyyy HH:mm",
+			"dateTo": "yyyy-MM-dd HH:mm",
+			"allowNull": true
+		},
+		{
+			"name": "NUM_BO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "CATEGORIZACAO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "MOTIVO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "STATUS_BO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "NUM_PDD",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "NUM_PDD_ITEM",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "DAT_CARREGAMENTO",
+			"dataType": "Date",
+			"allowNull": true,
+			"dateFrom": "dd/MM/yyyy",
+			"dateTo": "yyyy-MM-dd"
+		},
+		{
+			"name": "CMN",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "PLACA",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "HORARIO_SUGERIDO",
+			"dataType": "String",
+			"allowNull": true,
+			"dateFrom": "HH:mm",
+			"dateTo": "HH:mm"
+		},
+		{
+			"name": "HRA_PUXADA",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "FRETE",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "IND_SERV_TMS",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "TRANSPORTADORA",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "CAPACIDADE_VEICULO",
+			"dataType": "Float",
+			"decimalFormat" : "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "STATUS_PCA",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "STATUS_TMS",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "PALLET_PCA",
+			"decimalFormat" : "pt_BR",
+			"dataType": "Float",
+			"allowNull": true
+		},
+		{
+			"name": "PALLET_TMS",
+			"decimalFormat" : "pt_BR",
+			"dataType": "Float",
+			"allowNull": true
+		},
+		{
+			"name": "COD_CARREGAMENTO_EXTERNO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "DATA_INCLUSAO",
+			"dataType": "Date",
+			"allowNull": true,
+			"dateFrom":"dd/MM/yyyy",
+			"dateTo": "yyyy-MM-dd"
+		},
+		{
+			"name": "HORARIO_INCLUSAO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "DATA_EXPORTACAO",
+			"dataType": "DateTime",
+			"allowNull": true,
+			"dateFrom":"dd/MM/yyyy HH:mm",
+			"dateTo": "yyyy-MM-dd HH:mm"
+		},
+		{
+			"name": "HORARIO_EXPORTACAO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "DSC_MARCA",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "DSC_GRUPO_EMBALAGEM",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "DESC_EMBALAGEM",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "COD_PROD",
+			"dataType": "Integer",
+			"allowNull": true
+		},
+		{
+			"name": "NOME_PROD",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "QTD_SKU",
+			"dataType": "Float",
+			"allowNull": true
+		},
+		{
+			"name": "QTD_HL",
+			"decimalFormat" : "pt_BR",
+			"dataType": "Float",
+			"allowNull": true
+		},
+		{
+			"name": "IND_MALHA_VIGENTE",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "IND_PEDIDO_VALORIZADO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "COD_PEN",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "DESC_PEN",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "TTV_CHEIO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "TTV_PRATICADO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "DSC_OBS",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "DAT_ALT",
+			"dataType": "DateTime",
+			"allowNull": true,
+			"dateFrom":"dd/MM/yyyy HH:mm",
+			"dateTo": "yyyy-MM-dd HH:mm"
+		},
+		{
+			"name": "COD_USU_ALT",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "DSC_NATUREZA_OPERACAO",
+			"dataType": "String",
+			"allowNull": true
+		}
+]
+}

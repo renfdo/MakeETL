@@ -1,0 +1,412 @@
+{
+    "type":"file",
+	"enconding":"",
+	"incremental":"notIncremental",
+	"delimiter": "",
+	"decimalFormat": "US",
+	"encodingDetected": "ISO-8859-1",
+	"header":
+	[
+	"Conc1",
+	"Geografia",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	""
+	],
+	"namePattern": "Painel CDD 2.0",
+	"extension":"xlsb",
+	"source": "//192.168.252.25/infocell/CINFO/divulgacao/ADL/Painel CDD/",
+	"preLandingSourcePath": "D:/resource/default_user/Workspace/source_config/pre_landing/",
+    "preLandingDestinyPath":"D:/resource/default_user/Workspace/source_config/pre_landing_ok/",
+	"history_path": "OK/PCA/Painel_CDD2_Consolidador/{YYYY}/{MM}/{DD}/",
+	"rejected_path": "NOK/PCA/Painel_CDD2_Consolidador/{YYYY}/{MM}/{DD}/",
+	"sheetNumber":5,
+    "skip_header":1,
+    "skip_column":0,
+	"addDateColumn":true,
+	"columnsSchema":
+	
+	[	
+		{
+			"name": "CONC1",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "GEOGRAFIA",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "COD_PCA",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "FABRICA_CDD",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "COD_PCA_PROD",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "PRODUTO",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "EMBALAGEM",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "ESTOQUE",
+			"dataType": "Float",
+			"allowNull": true			
+		},
+		{
+			"name": "ESTOQUE_RETIDO",
+			"dataType": "Float",
+			"allowNull": true			
+		},
+		{
+			"name": "TRANSITO",
+			"dataType": "Float",
+			"allowNull": true			
+		},
+		{
+			"name": "D+0",
+			"dataType": "Float",
+			"allowNull": true			
+		},
+		{
+			"name": "D+1",
+			"dataType": "Float",
+			"allowNull": true			
+		},
+		{
+			"name": "D+2",
+			"dataType": "Float",
+			"allowNull": true			
+		},
+		{
+			"name": "D+3",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "D+4",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "D+5",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "D+6",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "ENTR_D+0",
+			"dataType": "Float",
+			"allowNull": true			
+		},
+		{
+			"name": "LINEAR_4",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "LINEAR_R",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "V1",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "V2",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "V3",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "V4",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "V5",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "V6",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "MIN_D",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "OBJ_D",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "MAX_D",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "MIN_HL",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "OBJ_HL",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "MAX_HL",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "F_D+0",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "F_D+1",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "F_D+2",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "F_D+3",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "F_D+4",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "F_D+5",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "F_D+6",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "R2",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "R3",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "R4",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "R5",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "R6",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "FABRICA_ORIGEM",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "ESTOQUE_ORIGEM",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "CLUSTER",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "CONV_PC",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "CONV_PAL",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "FABRICA_ORIGEM_2",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "ESTOQUE_ORIGEM_2",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "FABRICA_MENSAL",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "ESTOQUE_FABRICA_MENSAL",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "RRP4_F2",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "RRP4_F3",
+			"dataType": "Float",
+			"allowNull": true,
+			"decimalFormat": "US"
+		},
+		{
+			"name": "EFM",
+			"dataType": "Float",
+			"allowNull": true			
+		},
+		{
+			"name": "CLUSTER_RET_DESC",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "ARMAZ.IDEAL",
+			"dataType": "Float",
+			"allowNull": true
+		}
+
+	]
+}

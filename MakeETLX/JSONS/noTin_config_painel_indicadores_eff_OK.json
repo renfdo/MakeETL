@@ -1,0 +1,252 @@
+{
+	"type": "file",
+	"incremental": "notIncremental",
+	"decimalFormat": "pt_BR",
+	"delimiter": "",
+	"encodingDetected": "ISO-8859-1",
+	"headerSize": "39",
+	"header": [
+		"Geografia/Regional"
+	],
+	"namePattern": "Painel de Indicadores-EFF",
+	"extension": "xlsb",
+	"source": "//192.168.252.25/infocell/CINFO/divulgacao/ADL/Painel CDD/Insumos/PAINEL_INDICADORES/",
+	"preLandingSourcePath": "D:/resource/default_user/Workspace/source_config/pre_landing/",
+	"preLandingDestinyPath": "D:/resource/default_user/Workspace/source_config/pre_landing_ok/",
+	"history_path": "OK/EFF/Painel_de_Indicadores-EFF/{YYYY}/{MM}/{DD}/",
+	"rejected_path": "NOK/EFF/Painel_de_Indicadores-EFF/{YYYY}/{MM}/{DD}/",
+	"sheetNumber": 0,
+	"skip_header": 6,
+	"skip_column": 0,
+	"addDateColumn": true,
+	"columnsSchema": [
+		{
+			"name": "Geografia_Regional",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Fabrica_CDD",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Cod_Fabrica_CDD",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Embalagem",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Cod_Produto",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "Produto",
+			"dataType": "String",
+			"allowNull": true
+		},
+		{
+			"name": "EILiberado_hL",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "EI_Retido",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "PE_Min_d",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "PE_Obj_d",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "PE_Max_d",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Sufic_Malha_d",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Farol_EI",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Malha_4_Semanas",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Linear_Min",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Linear_Obj",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Linear_Max",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Malha_Fornec_Aj_hL",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Linear_Malha_Aj_hL",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Real_Fornec_hL",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Linear_Real_hL",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Real_Fornec_%",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Farol_Malha",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Saldo_Malha_hL",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Linear_Saldo_hL",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Sufic_Saldo_d",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Farol_Saldo_Malha",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Malha_Transf_hL",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Real_Transf_hL",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Real_Transf_%",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Farol_Transf",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Transito_Total_hL",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Puxada_D0_hLL",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Puxada_D1_hL",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Puxada_D2_hL",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Puxada_D3_hL",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Puxada_D4_hL",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Puxada_D5_hL",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		},
+		{
+			"name": "Furo_%",
+			"dataType": "Float",
+			"decimalFormat": "pt_BR",
+			"allowNull": true
+		}
+	]
+}

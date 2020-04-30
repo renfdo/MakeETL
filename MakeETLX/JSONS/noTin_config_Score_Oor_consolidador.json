@@ -1,0 +1,915 @@
+{
+    "type":"file",
+	"enconding":"",
+	"decimalFormat": "pt_BR",
+	"incremental":"notIncremental",
+	"encodingDetected": "ISO-8859-1",
+	"delimiter": "TAB",
+	"removeFirstEmptyData": "true",
+	"header":
+	[
+	"Conc1",
+	"Geografia",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	""
+	],
+	"namePattern": "Score OOR",
+	"extension":"xlsb",
+	"source": "//Acswpj2/op_projetos_nova/ADL/Central_Programacao/DSI Programação 1/Privado/Premium - Master Data/Master Data/02. FAROL/08. Score OOR/",
+	"preLandingSourcePath": "D:/resource/default_user/Workspace/source_config/pre_landing/",
+    "preLandingDestinyPath":"D:/resource/default_user/Workspace/source_config/pre_landing_ok/",
+	"history_path": "OK/ORDERS/SCORE_OOR/{YYYY}/{MM}/{DD}/",
+	"rejected_path": "NOK/ORDERS/SCORE_OOR/{YYYY}/{MM}/{DD}/",
+	"sheetNumber":4,
+    "skip_header":0,
+    "skip_column":1,
+	"addDateColumn":true,
+	"columnsSchema":
+	
+	[
+		{
+			"name": "CONC1",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "GEOGRAFIA",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "COD_PCA",
+			"dataType": "Integer",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "FABRICA_CDD",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "COD_PCA_PROD",
+			"dataType": "Integer",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%", ",", ".0"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "PRODUTO",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "EMBALAGEM",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "ESTOQUE",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "ESTOQUE_RETIDO",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "T+0",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "T+1",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "T+2",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "T+3",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "T+4",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "T+5",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "T+6",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "T+7",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "D+0",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "D+1",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "D+2",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "D+3",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "D+4",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "D+5",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "D+6",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "D+7",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "ENTR_D+0",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "LINEAR_4",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "LINEAR_R",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "V1",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "V2",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "V3",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "V4",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "V5",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "V6",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "MIN_D",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "OBJ_D",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "MAX_D",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "MIN_HL",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "OBJ_HL",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "MAX_HL",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "F+0",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "F+1",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "F+2",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "F+3",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "F+4",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "F+5",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "F+6",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "F+7",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "EST_ORIG_D+0",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "EST_ORIG_D+1",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "EST_ORIG_D+2",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "EST_ORIG_D+3",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "EST_ORIG_D+4",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "FABRICA_ORIGEM",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "TIPO_PRODUTO",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "CLUSTER",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "CONV_PC",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "CONV_PAL",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "PROPRIO_TRANSF",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "ITENS_TOTAL",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "MTS_MTO",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "COUNT_OUT_INI",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "VOLUME_OUT_INI",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "COUNT_OVER_INI",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "VOLUME_OVER_INI",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "OOR_INI",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "ESTOQUE_D+0",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "COUNT_OUT_D+0",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "VOLUME_OUT_D+0",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "COUNT_OVER_D+0",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "VOLUME_OVER_D+0",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "OOR_D+0",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "ESTOQUE_D+1",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "COUNT_OUT_D+1",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "VOLUME_OUT_D+1",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "COUNT_OVER_D+1",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "VOLUME_OVER_D+1",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "OOR_D+1",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "ESTOQUE_D+2",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "COUNT_OUT_D+2",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "VOLUME_OUT_D+2",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "COUNT_OVER_D+2",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "VOLUME_OVER_D+2",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "OOR_D+2",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "ESTOQUE_D+3",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "COUNT_OUT_D+3",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "VOLUME_OUT_D+3",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "COUNT_OVER_D+3",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "VOLUME_OVER_D+3",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "OOR_D+3",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "ESTOQUE_D+4",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "COUNT_OUT_D+4",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "VOLUME_OUT_D+4",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "COUNT_OVER_D+4",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "VOLUME_OVER_D+4",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "OOR_D+4",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "ESTOQUE_D+5",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "COUNT_OUT_D+5",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "VOLUME_OUT_D+5",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "COUNT_OVER_D+5",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "VOLUME_OVER_D+5",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "OOR_D+5",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "CDP",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "STATUS_FURO",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "CARREGADO_MENSAL",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "CARREGADO_SEMANAL",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "CARREGADO_D-1",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "FURO_MENSAL",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "FURO_SEMANAL",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "FURO_D-1",
+			"dataType": "Float",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		},
+		{
+			"name": "TIPO_PRODUTO",
+			"dataType": "String",
+			"allowNull": true,
+			"removeChar": ["(", "$", ")", "%"],
+			"decimalFormat": "pt_BR"
+		}
+	]
+}

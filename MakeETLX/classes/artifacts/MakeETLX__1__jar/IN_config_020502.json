@@ -1,0 +1,226 @@
+{
+    "type":"file",
+	"incremental":"incremental",
+	"decimalFormat" : "pt_BR",
+	"delimiter": "",
+	"blob_filter": "OK/PROMAX/020502/",
+	"file_sqlName": "CREATE_EXT_020502_TRANSITO.sql",
+	"encodingDetected": "ISO-8859-1",
+	"namePattern": "020502_*",
+	"extension":"xls",
+	"source": "//192.168.252.25/infocell/CINFO/divulgacao/ADL/BaseUnica/Produtos/Controle/{YYYY}/02_05_02_P1/",
+	"history_path": "OK/PROMAX/020502/{YYYY}/",
+	"rejected_path": "NOK/PROMAX/020502/{YYYY}/",
+	"raw_path": "RAW/PROMAX/020502/{YYYY}/",
+	"sheetNumber":0,
+    "skip_header":1,
+	"skip_column":0,
+	"addDateColumn":true,
+	"columnsSchema":
+	[
+			{
+			"name": "unidade_promax",
+			"dataType": "Integer",
+			"allowNull": true
+			},
+			{
+			"name": "Armazem",
+			"dataType": "Integer",
+			"allowNull": true
+			},
+			{
+			"name": "Deposito",
+			"dataType": "Integer",
+			"allowNull": true
+			},
+			{
+			"name": "sem_nome",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "Produto",
+			"dataType": "Integer",
+			"allowNull": true
+			},
+			{
+			"name": "Descricao",
+			"dataType": "String",
+			"allowNull": true
+			},
+			{
+			"name": "Unidade",
+			"dataType": "String",
+			"allowNull": true
+			},
+			{
+			"name": "saldo_anterior_un",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "saldo_anterior_av",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "entradas_un",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "entradas_av",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "saidas_un",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "saidas_av",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "saldo_atual_un",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "saldo_atual_av",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "transito_un",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "transito_av",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "disponivel_un",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "disponivel_av",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "inventario_un",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "inventario_av",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "diferenca_un",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "diferenca_av",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "diferenca_congelamento_un",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "diferenca_congelamento_av",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "trans_ant_un",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "trans_ant_av",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "trans_ant_nao_carregado_un",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "trans_ant_nao_carregado_av",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "trans_dia_nao_carregado_un",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "trans_dia_nao_carregado_av",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "comodato_OP03_un",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "comodato_OP03_av",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "venda_Vas_OP85_un",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "venda_Vas_OP85_av",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "Valorizacao",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "Sinal",
+			"dataType": "String",
+			"allowNull": true
+			},
+			{
+			"name": "sem_nome_2",
+			"dataType": "Float",
+			"allowNull": true
+			},
+			{
+			"name": "DATA_IMPORTACAO",
+			"dataType": "Date",
+			"dateFrom": "M/d/yy H:mm",
+			"dateTo": "yyyy-MM-dd",
+			"allowNull": true
+			},
+			{
+			"name": "PERIODO_IMPORTACAO",
+			"dataType": "DateTime",
+			"dateFrom": "M/d/yy H:mm",
+			"dateTo": "yyyy-MM-dd HH:mm:ss",
+			"allowNull": true
+			}
+	]
+}
